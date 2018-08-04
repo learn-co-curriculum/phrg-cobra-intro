@@ -83,8 +83,8 @@ Before Nitro used componentization, it was one gigantic Rails application. As we
 
 However, there is still a lot of older and essential Nitro functionality that has yet to be componentized. This legacy code lives in our two largest components.
 
-1. `core_models` - where most of Nitro's Models live
-1. `nitro_component_transition` - where most of Nitro's Controllers & Views live
+1. `core_models` - Nitro's legacy Models
+1. `nitro_component_transition` - Nitro's legacy Controllers & Views
 
 Adding new code into these components should be avoided. Any chance one has to break out some legacy functionality into another component, it should be discussed as a team and pursued if possible. This is not always an easy undertaking, so remember to utilize the support of more senior Nitro developers.
 
