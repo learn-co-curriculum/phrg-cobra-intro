@@ -71,11 +71,22 @@ Examples of React components inside Nitro are:
 
 ## All Components
 
+Regardless of type, there are some standard conventions for every component in Nitro.
 
-
+1. They all live in the `components/` directory.
+1. They all contain a `README.md` with a description of the component's purpose.
+1. They all contain a `bin/` directory with executables for setups, builds, and tests.
 
 ## Legacy Components
 
+Before Nitro used componentization, it was one gigantic Rails application. As we transitioned into using CoBRA, we started breaking out the most obvious divisions of functionality. Today, anytime a new feature gets added to Nitro, it starts as a new component.
+
+However, there is still a lot of older and essential Nitro functionality that has yet to be componentized. This legacy code lives in our two largest components.
+
+1. `core_models` - where most of Nitro's Models live
+1. `nitro_component_transition` - where most of Nitro's Controllers & Views live
+
+Adding new code into these components should be avoided. Any chance one has to break out some legacy functionality into another component, it should be discussed as a team and pursued if possible. This is not always an easy undertaking, so remember to utilize the support of more senior Nitro developers.
 
 ## Resources
 
