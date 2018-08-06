@@ -6,7 +6,7 @@ Every Nitro component can be viewed as an application within itself. Nitro compo
 
 1. Ruby Gems
 1. Rails Engines
-1. React Nodes
+1. Front End
 
 ## Ruby Gems
 
@@ -52,9 +52,9 @@ Examples of Rails Engine components inside Nitro are:
 - `solar_roofing`
 - `ux_prototypes`
 
-## React Nodes
+## Front End
 
-[React Nodes](https://www.reactenlightenment.com/react-nodes/4.1.html) are user interface focused components that use the [React](https://reactjs.org/) Javascript framework. You will be learning a lot more about Javascript and the React framework in the coming weeks. For now, remember that you can conceptually think of a React Node as its own React application.
+Front End components are user interface focused components that typically use the [React](https://reactjs.org/) Javascript framework. You will be learning a lot more about Javascript and the React framework in the coming weeks. For now, remember that you can conceptually think of a Front End component as its own React application.
 
 Examples of React components inside Nitro are:
 
@@ -93,4 +93,3 @@ Adding new code into these components should be avoided. Any chance one has to b
 - [CoBRA](http://shageman.github.io/cbra.info/)
 - [Ruby Gems](https://guides.rubygems.org/what-is-a-gem/)
 - [Rails Engines](https://guides.rubyonrails.org/engines.html)
-- [React Nodes](https://www.reactenlightenment.com/react-nodes/4.1.html)
