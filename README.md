@@ -31,7 +31,7 @@ Examples of Ruby gem components inside Nitro are:
 
 [Rails Engines](https://guides.rubyonrails.org/engines.html) are miniature Rails applications. They provide all the functionality of a Rails app, with slightly different configurations. Rails Engines also contain `gemspec`s, which make them Ruby gems as well. One popular Rails Engine is [Devise](https://github.com/plataformatec/devise).
 
-Nitro Rails Engine components typically do not utilize all Rails features. As you gain familiarity with Nitro's stucture, you'll find Rails Engine components that use:
+Nitro Rails Engine components typically do not utilize all Rails features. As you gain familiarity with Nitro's structure, you'll find Rails Engine components that use:
 
 1. all MVC classes
 1. just Models
