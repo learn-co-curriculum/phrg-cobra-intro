@@ -1,6 +1,6 @@
 # CoBRA
 
-Nitro is built with [CoBRA](http://shageman.github.io/cbra.info/). CoBRA stands for "Component Based Rails Architecture". Instead one gigantic Rails application, Nitro componentizes its overall architecture. CoBRA is a code organization and management technique that breaks large applications into small, distinct parts. This allows for better separation of concerns, dependency management, and ultimately, scalability.
+Nitro is built with [CoBRA](http://shageman.github.io/cbra.info/). CoBRA stands for "Component Based Rails Architecture". Instead of one gigantic Rails application, Nitro componentizes its overall architecture. CoBRA is a code organization and management technique that breaks large applications into small, distinct parts. This allows for better separation of concerns, dependency management, and ultimately, scalability.
 
 Every Nitro component can be viewed as an application within itself. Nitro components fall into 3 classifications.
 
@@ -81,7 +81,7 @@ Regardless of type, there are some standard conventions for every component in N
 
 Before Nitro used componentization, it was one gigantic Rails application. As we transitioned into using CoBRA, we started breaking out the most obvious divisions of functionality. Today, anytime a new feature gets added to Nitro, it starts as a new component.
 
-However, there is still a lot of older and essential Nitro functionality that has yet to be componentized. This legacy code lives in our two largest components.
+However, there is still a lot of older and essential Nitro functionality that has yet to be componentized. This legacy code lives in our two largest components:
 
 1. `core_models` - Nitro's legacy Models
 1. `nitro_component_transition` - Nitro's legacy Controllers & Views
