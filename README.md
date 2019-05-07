@@ -25,7 +25,7 @@ Examples of Ruby gem components inside Nitro are:
 - `nitro_object_store`
 - `nitro_redis`
 - `ruby_test_helpers`
-- `utu_client`
+- `sfi_central_client`
 
 ## Rails Engines
 
@@ -46,7 +46,7 @@ Examples of Rails Engine components inside Nitro are:
 - `charitable_giving`
 - `contact_center`
 - `mobile_devices`
-- `outbound_marketing`
+- `marketing`
 - `promos`
 - `scrum`
 - `solar_roofing`
