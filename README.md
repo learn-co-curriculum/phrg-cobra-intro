@@ -2,11 +2,12 @@
 
 Nitro is built with [CoBRA](http://shageman.github.io/cbra.info/). CoBRA stands for "Component Based Rails Architecture". Instead one gigantic Rails application, Nitro componentizes its overall architecture. CoBRA is a code organization and management technique that breaks large applications into small, distinct parts. This allows for better separation of concerns, dependency management, and ultimately, scalability.
 
-Every Nitro component can be viewed as an application within itself. Nitro components fall into 3 classifications.
+Every Nitro component can be viewed as an application within itself. Nitro components fall into 4 classifications.
 
 1. Ruby Gems
 1. Rails Engines
 1. Front End
+1. Hybrid
 
 ## Ruby Gems
 
@@ -22,6 +23,7 @@ Examples of Ruby gem components inside Nitro are:
 - `new_relic_event`
 - `nitro_auth`
 - `nitro_config`
+- `nitro_metrics`
 - `nitro_object_store`
 - `nitro_redis`
 - `ruby_test_helpers`
@@ -44,17 +46,18 @@ Examples of Rails Engine components inside Nitro are:
 - `adp`
 - `call_queues`
 - `charitable_giving`
-- `contact_center`
+- `equipment_assets`
 - `mobile_devices`
 - `marketing`
 - `promos`
 - `scrum`
 - `solar_roofing`
+- `training`
 - `ux_prototypes`
 
 ## Front End
 
-Front End components are user interface focused components that typically use the [React](https://reactjs.org/) Javascript framework. You will be learning a lot more about Javascript and the React framework in the coming weeks. For now, remember that you can conceptually think of a Front End component as its own React application.
+Front End components are user interface focused components that typically use the [React](https://reactjs.org/) Javascript framework. You can conceptually think of a Front End component as its own React application.
 
 Examples of React components inside Nitro are:
 
@@ -68,6 +71,20 @@ Examples of React components inside Nitro are:
 - `scrum_ui`
 - `spaces_ui`
 - `support_tickets`
+
+## Hybrid
+
+A hybrid component is both a Rails engine and a front end component.
+
+Here are some examples:
+
+- `compliance`
+- `contact_center`
+- `corporate_events`
+- `finance`
+- `human_resources`
+- `learning_dojo`
+- `nitro_survey`
 
 ## All Components
 
